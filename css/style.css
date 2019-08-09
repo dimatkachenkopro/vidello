@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background-color: black;
+  font-family: sans-serif;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.navbar {
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navcontainerlist ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.navcontainerlist ul li {
+  margin: 1rem;
+}
+
+.navcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navcontainer p {
+  font-size: 2rem;
+}
+.navcontainer img {
+  width: 3vw;
+}
+
+/*HEADER*/
+.header {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header__text {
+  padding-right: 10rem;
+  width: 50%;
+  flex-basis: auto;
+}
+
+.header__title {
+  font-size: 4vw;
+}
+
+.header__video {
+  padding: 1rem;
+  width: 50%;
+}
+.header__video iframe {
+  width: 100%;
+}
+.header__pt {
+  margin-top: 2rem;
+}
+.header__button {
+  background-color: blue;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  margin: 2rem 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.header__pt2 {
+  font-size: 0.7em;
+}
+
+/*SECOND SECTION*/
+.second_section {
+  min-height: 80vh;
+}
+.second_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.second__section_text {
+  margin: 10rem;
+  text-align: center;
+}
+.second__section_h2 {
+  font-size: 4vw;
+}
+.second__section_p {
+  margin: 3rem 0;
+}
+.second__section_p2 {
+  color: blue;
+  font-size: 1vw;
+}
+.second_section_img {
+  flex-basis: auto;
+}
+/*THIRD SECTION*/
+.third_section {
+  background-color: #ff195a;
+  padding-top: 5rem;
+}
+.third_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.third_section_text {
+  width: 50%;
+  text-align: center;
+}
+.third__section_h2 {
+  font-size: 4vw;
+}
+.third__section_p {
+  margin: 3rem 0;
+  padding: 0 5rem;
+}
+.third_section_image {
+  display: flex;
+  align-items: flex-end;
+}
